@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PadL Store</title>
+    <link rel="stylesheet" href="style/style.css">
+      <!-- Font Awesome CDN-->
+    <script src="https://kit.fontawesome.com/aaa195dcba.js" crossorigin="anonymous"></script>
+
+    <!-- Tailwind CSS CDN -->
+     <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Customizing Config  -->
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+                clifford: '#da373d',
+                customyellow: '#FFDC26',
+              },
+              fontFamily:{
+                adlamdisplay:["ADLaM Display", "system-ui"],
+                sora:["Sora", "sans-serif"],  
+              },
+              
+            }
+          }
+        }
+    </script>
+</head>
+<body>
+    <header> 
+
+        <nav class="lg:flex justify-between mx-10 my-8 content-center">
+
+ 
+            <div>
+                <img class="w-48" src="assets/logo.jpeg" alt="logo">
+            </div>
+
+            <div>
+                <ul class="lg:flex gap-7 mr-20 font-semibold">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="aboutus.html">About Us</a></li>
+                    <li><a href="product.html">Products</a></li>
+                    <li><a href="blogs.html">Blogs</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>    
+
+            <div>
+                <a href=""><i class="fa-solid fa-user"></i></a>
+                <a href=""><i class="fa-solid fa-cart-shopping"></i></a>
+            </div>
+        
+
+        </nav>
+<!-- 
+        <div class="bg-[#57b7c0]">
+          <div class="lg:flex items-center mx-10 py-12">
+                <div class="space-y-5">
+                  <h2 class="font-bold text-2xl	text-white ">BEACHBALL SET FUNKY STROKES</h2>
+                  <p class="font-medium	 text-base text-white	">Smash Every Shot With Power and Precision Sunflex Tennis Ball Bat, Made to Dominate</p>
+                  <button class="px-4 py-2 rounded-lg text-white font-semibold bg-[#0f5190] hover:bg-white hover:text-[#0f5190]"><a href="">Buy Now</a></button>
+                </div>
+
+                <div>
+                  <img class="rounded-lg" src="assets/bat.jpg" alt="banner/bat.png">
+                </div>
+          </div>
+        </div>   -->
+
+    </header>
+
+     
+    <main>
+        
+        <section class="mt-10 mx-5">
+
+          <div class="place-items-center">
+            <h2 class="text-2xl font-bold">All Blogs</h2>
+          </div>
+
+          <div class="lg:grid grid-cols-3 gap-5 mt-5 pb-10">
+
+
+
+
+            <div class="card bg-base-100 w-80 bg-[#fff8f0] rounded-lg shadow-xl">
+              <figure class="px-10 pt-10">
+                <img
+                  src="assets/blog-2.jpg"
+                  alt="blog-img"
+                  class="rounded-xl" />
+              </figure>
+              <div class="card-body items-center text-center">
+                <h2 class="card-title font-bold text-2xl pt-2 pb-2">Exploring Table Tennis Techniques !</h2>
+               
+                <ul class="flex gap-12 ml-14">
+                  <li class="font-semibold ">
+                    Published 
+                    <br>
+                    <span>12/03/24</span>
+                  </li>
+                  <li class="font-semibold">
+                    Written By
+                    <br>
+                    <span>CodexCode</span>
+                  </li>
+                </ul>
+
+                <p class="pt-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo doloremque a praesentium adipisci nesciunt quod eligendi distinctio voluptates odit non</p>
+
+                <div class="card-actions">
+                  <button class="btn btn-primary pt-2 text-blue-700"><a href="single.html">Read More...</a></button>
+                </div>
+              </div>
+            </div>
+
+            <div class="card bg-base-100 w-80 bg-[#fff8f0] pb-5 rounded-lg shadow-xl">
+              <figure class="px-10 pt-10">
+                <img
+                  src="assets/blog-3.jpg"
+                  alt="blog-img"
+                  class="rounded-xl" />
+              </figure>
+              <div class="card-body items-center text-center">
+                <h2 class="card-title font-bold text-2xl pt-2 pb-2">Spin, Smash, Win: The Thrilling World of Table Tennis !</h2>
+               
+                <ul class="flex gap-12 ml-14">
+                  <li class="font-semibold ">
+                    Published 
+                    <br>
+                    <span>12/03/24</span>
+                  </li>
+                  <li class="font-semibold">
+                    Written By
+                    <br>
+                    <span>CodexCode</span>
+                  </li>
+                </ul>
+
+                <p class="pt-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo doloremque a praesentium adipisci nesciunt quod eligendi distinctio voluptates odit non</p>
+
+                <div class="card-actions">
+                  <button class="btn btn-primary pt-2 text-blue-700"><a href="single.html">Read More...</a></button>
+                </div>
+              </div>
+            </div>
+
+            <div class="card bg-base-100 w-80 bg-[#fff8f0] rounded-lg shadow-xl">
+              <figure class="px-10 pt-10">
+                <img
+                  src="assets/blog-4.jpg"
+                  alt="blog-img"
+                  class="rounded-xl" />
+              </figure>
+              <div class="card-body items-center text-center">
+                <h2 class="card-title font-bold text-2xl pt-2 pb-2">Table Tennis as a Mental and Physical Challenge !</h2>
+               
+                <ul class="flex gap-12 ml-14">
+                  <li class="font-semibold ">
+                    Published 
+                    <br>
+                    <span>12/03/24</span>
+                  </li>
+                  <li class="font-semibold">
+                    Written By
+                    <br>
+                    <span>CodexCode</span>
+                  </li>
+                </ul>
+
+                <p class="pt-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo doloremque a praesentium adipisci nesciunt quod eligendi distinctio voluptates odit non</p>
+
+                <div class="card-actions">
+                  <button class="btn btn-primary pt-2 text-blue-700"><a href="single.html">Read More...</a></button>
+                </div>
+              </div>
+            </div>
+
+            <div class="card bg-base-100 w-80 bg-[#fff8f0] rounded-lg shadow-xl pb-5">
+              <figure class="px-10 pt-10">
+                <img
+                  src="assets/blog-1.jpg"
+                  alt="blog-img"
+                  class="rounded-xl" />
+              </figure>
+              <div class="card-body items-center text-center">
+                <h2 class="card-title font-bold text-2xl pt-2 pb-2">Strategies for Table Tennis Success !</h2>
+               
+                <ul class="flex gap-12 ml-14">
+                  <li class="font-semibold ">
+                    Published 
+                    <br>
+                    <span>12/03/24</span>
+                  </li>
+                  <li class="font-semibold">
+                    Written By
+                    <br>
+                    <span>CodexCode</span>
+                  </li>
+                </ul>
+
+                <p class="pt-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo doloremque a praesentium adipisci nesciunt quod eligendi distinctio voluptates odit non</p>
+
+                <div class="card-actions">
+                  <button class="btn btn-primary pt-2 text-blue-700"><a href="single.html">Read More...</a></button>
+                </div>
+              </div>
+            </div>
+
+            <div class="card bg-base-100 w-80 bg-[#fff8f0] rounded-lg shadow-xl pb-5">
+              <figure class="px-10 pt-10">
+                <img
+                  src="assets/blog-3.jpg"
+                  alt="blog-img"
+                  class="rounded-xl" />
+              </figure>
+              <div class="card-body items-center text-center">
+                <h2 class="card-title font-bold text-2xl pt-2 pb-2">Unleashing Your Inner Champion in Table Tennis !</h2>
+               
+                <ul class="flex gap-12 ml-14">
+                  <li class="font-semibold ">
+                    Published 
+                    <br>
+                    <span>12/03/24</span>
+                  </li>
+                  <li class="font-semibold">
+                    Written By
+                    <br>
+                    <span>CodexCode</span>
+                  </li>
+                </ul>
+
+                <p class="pt-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo doloremque a praesentium adipisci nesciunt quod eligendi distinctio voluptates odit non</p>
+
+                <div class="card-actions">
+                  <button class="btn btn-primary pt-2 text-blue-700"><a href="single.html">Read More...</a></button>
+                </div>
+              </div>
+            </div>
+
+            <div class="card bg-base-100 w-80 bg-[#fff8f0] rounded-lg shadow-xl pb-5">
+              <figure class="px-10 pt-10">
+                <img
+                  src="assets/blog-4.jpg"
+                  alt="blog-img"
+                  class="rounded-xl" />
+              </figure>
+              <div class="card-body items-center text-center">
+                <h2 class="card-title font-bold text-2xl pt-2 pb-2">Exploring Table Tennis Techniques!</h2>
+               
+                <ul class="flex gap-12 ml-14">
+                  <li class="font-semibold ">
+                    Published 
+                    <br>
+                    <span>12/03/24</span>
+                  </li>
+                  <li class="font-semibold">
+                    Written By
+                    <br>
+                    <span>CodexCode</span>
+                  </li>
+                </ul>
+
+                <p class="pt-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo doloremque a praesentium adipisci nesciunt quod eligendi distinctio voluptates odit non</p>
+
+                <div class="card-actions">
+                  <button class="btn btn-primary pt-2 text-blue-700"><a href="single.html">Read More...</a></button>
+                </div>
+              </div>
+            </div>
+
+            
+
+
+
+
+
+          </div>  
+       
+          <!-- <div class="mb-10">
+          <button class="block mx-auto mt-10 px-10 py-3 rounded-lg font-semibold text-white bg-[#0f5190] hover:bg-white hover:text-[#0f5190]"><a href="blogs.html">View All Blogs</a></button>
+          </div> -->
+
+        </section>
+
+
+    </main>
+ 
+
+    <footer>
+
+
+
+
+
+
+
+
+    </footer>
+</body>
+</html>
