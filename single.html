@@ -5,11 +5,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PadL Store</title>
     <link rel="stylesheet" href="style/style.css">
-      <!-- Font Awesome CDN-->
+    <link rel="shortcut icon" href="assets/favicon-removebg-preview.png" type="image/x-icon">
+    <!-- Font Awesome CDN-->
     <script src="https://kit.fontawesome.com/aaa195dcba.js" crossorigin="anonymous"></script>
 
     <!-- Tailwind CSS CDN -->
      <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Montserrat Google Font CDN -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet"> 
+
+    <!-- Open Sans Google FOnt CDN -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet"> 
 
     <!-- Customizing Config  -->
     <script>
@@ -21,7 +32,10 @@
                 customyellow: '#FFDC26',
               },
               fontFamily:{
-                 
+
+                montserrat: ["Montserrat", "sans-serif"],
+                opensans: ["Open Sans", "sans-serif"],
+
               },
               
             }
@@ -31,6 +45,8 @@
 </head>
 <body>
     <header> 
+
+        <!-- navigation menu -->
 
         <nav class="lg:flex justify-between mx-10 my-8 content-center">
 
@@ -75,6 +91,7 @@
 
 
     <main>
+      <!-- Read Full Blog Section -->
         <div class="mb-20">
 
                 <h1 class="font-bold text-2xl place-self-center pb-4 font-opensans">Blogs</h1>
@@ -83,7 +100,7 @@
                     <figure class="px-10 pt-10">
                     <img
                         src="assets/blog-1.jpg"
-                        alt="Shoes"
+                        alt="blogs-img"
                         class="rounded-xl h-96 w-full" />
                     </figure>
                     <div class="card-body items-center text-center">
